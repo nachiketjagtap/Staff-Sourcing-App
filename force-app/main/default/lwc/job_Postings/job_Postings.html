@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Job Postings" icon-name="standard:job_posting">
+        <lightning-datatable
+            key-field="id"
+            data={jobPostings}
+            columns={columns}
+            hide-checkbox-column
+            is-loading={isLoading}>
+        </lightning-datatable>
+    </lightning-card>
+    
+</template>
